@@ -1,6 +1,13 @@
-import { initializeApp, firestore as _firestore } from "./firebase";
+//import * as Firebase from 'firebase';
+//import Firestore from 'firebase/firestore';
 
-console.log('Socorro');
+//import * as Firebase from 'firebase';
+//require('firebase/firestore');
+
+const firebase = require('firebase');
+require('firebase/firestore');
+
+console.log('Teste');
 
 
 var firebaseConfig = {
@@ -16,7 +23,7 @@ var firebaseConfig = {
  // iniciar firebase
 firebase.initializeApp(firebaseConfig);
 var firestore = firebase.firestore();
-console.log('Socorro');
+console.log('Testandooooo');
 
  //DOM
  const submitBtn = document.querySelector('#submit');

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Vagas from './container/Vagas';
-import Horarios from './container/Horarios/Horarios';
+import Horarios from './container/Horarios';
 import Links from './container/Links';
 import Home from './container/Home';
 import Comercio from './container/Comercio';

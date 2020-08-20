@@ -1,0 +1,6 @@
+1. Instalar as depedências descritas no package.json
+
+2. Inicializar o app através do comando "npm start"
+
+3- O react-router precisa ser instalado na versão "3.2.6"
+
