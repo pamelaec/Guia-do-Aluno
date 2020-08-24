@@ -4,8 +4,7 @@ import NavBar from './ui/NavBar';
 
 
 class App extends Component {
-  render() {
-    
+  render() {  
     const logo = 
     <nav>
     <h1><b>GUIA DO ALUNO</b></h1>

@@ -12,9 +12,7 @@ var config = {
 
   //Reference message
   var messagesRef = firebase.database().ref('messages');
-
-
-document.getElementById('contactForm').addEventListener('submit', submitForm);
+  document.getElementById('contactForm').addEventListener('submit', submitForm);
 
 
 function submitForm(e){
@@ -44,3 +42,4 @@ function saveMessage(name, phone, message){
     });
 
 }
+
