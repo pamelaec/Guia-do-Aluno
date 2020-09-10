@@ -73,8 +73,8 @@ export default class Comercio extends Component {
                  <div className = "card mb-4 col-lg-12">
                  <img className = "card-img-top" src = "./img/hotel.png" alt = "hotel"></img>
                  <div className = "card-body">
-                 <h5  className = "card-title">Testando</h5>
-                 <p   className = "card-text">teste teste teste teste teste teste da certo teste </p>
+                 <h5  className = "card-title">Hotel Paulinellu</h5>
+                 <p   className = "card-text">teste teste teste  </p>
                     <a href = "globo.com" className = "btn btn-primary">Endereço</a>
                   </div>
                 </div> 
@@ -84,8 +84,8 @@ export default class Comercio extends Component {
                  <div className = "card mb-4 col-lg-12">
                  <img className = "card-img-top" src = "./img/pp.jpg" alt = "pastel"></img>
                  <div className = "card-body">
-                 <h5  className = "card-title">Testando</h5>
-                 <p   className = "card-text">teste teste teste teste teste teste da certo teste </p>
+                 <h5  className = "card-title">PP Lanches</h5>
+                 <p   className = "card-text">teste teste teste teste </p>
                     <a href = "globo.com" className = "btn btn-primary">Endereço</a>
                   </div>
                 </div> 

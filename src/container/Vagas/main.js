@@ -12,8 +12,11 @@ var config = {
 
   //Reference message
   var messagesRef = firebase.database().ref('messages');
-  document.getElementById('contactForm').addEventListener('submit', submitForm);
+  var var_msg = document.getElementById("msg");
+  var dados = ""
 
+
+document.getElementById('contactForm').addEventListener('submit', submitForm);
 
 function submitForm(e){
     e.preventDefault();
@@ -42,4 +45,13 @@ function saveMessage(name, phone, message){
     });
 
 }
+
+var db = messagesRef = firebase.database().ref().child("messages");
+  db.on('child_added', function(snapshot){
+      var adicionado = snapshot.val();
+
+      dados = "<table>" = "<tr><td>"+adicionado+"</td></tr>" + dados;
+
+      var_msg.innerHTML = dados;
+  })
 
