@@ -5,9 +5,15 @@ export default class Comercio extends Component {
 
     render() {
         return (
-                <div className = "container">
-                  <br></br>
-                 <h3  style     = {{textAlign: 'center', color: 'black'}}>COMÉRCIO - BAMBUÍ MG</h3><br></br><br></br>
+          <div className = "row">          
+          <div className = "container" ><br></br>
+            <div class="col-12" style= {{ fontFamily: 'garamond'}} ><br></br>
+            <h3  style     = {{textAlign: 'center', color: 'black'}}><b>COMÉRCIO </b></h3><br></br>
+            </div>
+            <br></br>
+            </div>
+
+
                  <div className = "row">
                  <div className = "col-sm-12 col-md-3">
                  <div className = "card mb-4 col-lg-12">
@@ -53,7 +59,7 @@ export default class Comercio extends Component {
                  <div className = "card mb-4 col-lg-12">
                  <img className = "card-img-top" src = "./img/saojosee.jpg" alt = "padaria"></img>
                  <div className = "card-body">
-                 <h5  className = "card-title">Panificadora</h5>
+                 <h5  className = "card-title">Padaria São José</h5>
                  <p   className = "card-text"> (37) 3431-1305 </p>
                     <a href = "https://www.google.com/maps/place/Panificadora+S%C3%A3o+Jos%C3%A9/@-20.0128883,-45.9764283,15z/data=!4m2!3m1!1s0x0:0x7dc29a40949e0bc3?sa=X&ved=2ahUKEwivicf89ZToAhWRIrkGHRIXA1MQ_BIwCnoECBAQCA" className = "btn btn-primary">Endereço</a>
                   </div>
@@ -73,8 +79,8 @@ export default class Comercio extends Component {
                  <div className = "card mb-4 col-lg-12">
                  <img className = "card-img-top" src = "./img/hotel.png" alt = "hotel"></img>
                  <div className = "card-body">
-                 <h5  className = "card-title">Hotel Paulinellu</h5>
-                 <p   className = "card-text">teste teste teste  </p>
+                 <h5  className = "card-title">Hotel Paulinelli</h5>
+                 <p   className = "card-text">(37) 3431-1037  </p>
                     <a href = "globo.com" className = "btn btn-primary">Endereço</a>
                   </div>
                 </div> 
@@ -85,7 +91,7 @@ export default class Comercio extends Component {
                  <img className = "card-img-top" src = "./img/pp.jpg" alt = "pastel"></img>
                  <div className = "card-body">
                  <h5  className = "card-title">PP Lanches</h5>
-                 <p   className = "card-text">teste teste teste teste </p>
+                 <p   className = "card-text">(37) 3431-2139</p>
                     <a href = "globo.com" className = "btn btn-primary">Endereço</a>
                   </div>
                 </div> 

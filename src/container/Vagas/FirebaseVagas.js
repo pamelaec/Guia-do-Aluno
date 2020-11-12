@@ -1,22 +1,27 @@
+import '../Vagas/Vagas';
+import firebase from 'firebase/app';
+import 'firebase/database';
+import 'firebase/firestore';
+
 var config = {
-    apiKey: "AIzaSyBrnfbZnY63JfXTgoZl6NJvR20SQBZDLgc",
-    authDomain: "contactform-956f5.firebaseapp.com",
-    databaseURL: "https://contactform-956f5.firebaseio.com",
-    projectId: "contactform-956f5",
-    storageBucket: "contactform-956f5.appspot.com",
-    messagingSenderId: "630331457176",
-    appId: "1:630331457176:web:2f6ef5ca319e0949869aed"
+    apiKey: "AIzaSyDzF92J-2MzdRRmbRE9WQqXZ7RZyXRpp8Q",
+    authDomain: "gda-vagas.firebaseapp.com",
+    databaseURL: "https://gda-vagas.firebaseio.com",
+    projectId: "gda-vagas",
+    storageBucket: "gda-vagas.appspot.com",
+    messagingSenderId: "370805898986",
+    appId: "1:370805898986:web:315dd3fb86a00086e0e193"
   };
   // Inicializa o firebase
   firebase.initializeApp(config);
 
   //Reference message
   var messagesRef = firebase.database().ref('messages');
-  var var_msg = document.getElementById("msg");
-  var dados = ""
+  var var_msg = document.getElementById("msg"); //pega a referência do html msg
+  var dados = ""//variavel que inicia a string
 
 
-document.getElementById('contactForm').addEventListener('submit', submitForm);
+document.getElementById('gda-vagas').addEventListener('submit', submitForm);
 
 function submitForm(e){
     e.preventDefault();
@@ -46,11 +51,13 @@ function saveMessage(name, phone, message){
 
 }
 
+
 var db = messagesRef = firebase.database().ref().child("messages");
   db.on('child_added', function(snapshot){
       var adicionado = snapshot.val();
 
-      dados = "<table>" = "<tr><td>"+adicionado+"</td></tr>" + dados;
+      dados = "<card>"  + adicionado + "<card>" + dados;
+      console.log(dados);
 
       var_msg.innerHTML = dados;
   })

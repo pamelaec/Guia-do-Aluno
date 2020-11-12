@@ -1,5 +1,18 @@
+@media only screen and (max-device-width: 900px) {
+  /* .menu { width:100%; } */
+  }
+
+  body{
+    position:relative;  /* reset do position, não relacionado ao demo, mas bom pra uso geral.  */
+  margin:0;           /* Zeramos as margens e o padding do UL para as células.encostarem     */
+  padding:0;
+  width:100%;         /* por default, os blocos são 100%, mas vamos garantir isso.           */
+  height:100%;
+  }
+
 .App {
   text-align: center;
+  justify-Content: "center";
 }
 
 .App-logo {
@@ -14,7 +27,7 @@
 }
 
 .App-header {
-  background-color: "";
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +48,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1{
+  background: '#4abdac';
+   font-Family: 'garamond';
+  
 }

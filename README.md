@@ -67,3 +67,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # guiadoaluno.app.tcc
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cdbf0184-6c89-4d09-8971-b775b6759993/deploy-status)](https://app.netlify.com/sites/guiadoaluno/deploys)

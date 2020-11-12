@@ -7,7 +7,7 @@ class App extends Component {
   render() {  
     const logo = 
     <nav>
-    <h1><b>GUIA DO ALUNO</b></h1>
+    <h1 ><b>GUIA DO ALUNO</b></h1>
     </nav>
     return (
       

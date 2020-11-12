@@ -4,16 +4,20 @@ import React, { Component } from 'react';
 export default class Horarios extends Component {
 
     render() {
-        return (
-            <div   className = "container"><br></br>
-            <h3    style     = {{textAlign: 'center', color: 'black'}}>HORÁRIO DE ÔNIBUS</h3>
+        return (          
+            <div className = "row">          
+            <div class="col-12" style= {{ fontFamily: 'garamond'}} ><br></br>
+            <h3    style     = {{textAlign: 'center', color: 'black'}}><b>HORÁRIO DE ÔNIBUS</b></h3> <br></br>
+            </div><br></br><br></br>
+                      
             <div   className = "row">
-            <div   className = "col-lg-2">
+            <div   className = "col-lg-2"><br></br>
             <table className = "table table-bordered table-hover">
                     <thead>
-                     <tr colspan = "2">Posto Girassol</tr>
-                          <th>Ida</th>
-                          <th>Retorno</th>
+                     <th colspan = "2" style     = {{backgroundColor: '#4abdac'}}>⠀Posto Girassol⠀</th>
+                     <tr></tr>
+                          <th style     = {{backgroundColor: '#E0F8F7'}}>⠀Ida⠀</th>
+                          <th style     = {{backgroundColor: '#E0F8F7'}}>Retorno</th>
                          </thead>
                          <tbody>
                      <tr>
@@ -84,7 +88,7 @@ export default class Horarios extends Component {
                             <td>22: 10</td>
                             <td>22: 40</td>
                       </tr>
-                      <th colspan = "2">Percurso</th>
+                      <th colspan = "2" style     = {{backgroundColor: '#E0F8F7'}}>Percurso</th>
                       <tr></tr>
                         <tr>
                               <td colspan = "2">Posto Girassol, Rua Santos Dumont, Sorveteria do Jesus, Quartel (PMMG), Rua do comércio, Rua Alzira Torres</td></tr>
@@ -92,14 +96,14 @@ export default class Horarios extends Component {
                           </table>
                     </div>
               
-              <div   className = "col-lg-10">
+              <div   className = "col-lg-10"><br></br>
               <table className = "table table-bordered table-hover">
             <thead>
-              <tr><th colspan = "3">Cerrado</th></tr>
+              <tr style     = {{textAlign: 'center', backgroundColor: '#4abdac'}}><th colspan = "3">Cerrado</th></tr>
               <tr>
-                  <th>Ida</th>
-                  <th>Retorno</th>
-                  <th>Percurso</th>
+                  <th style     = {{backgroundColor: '#E0F8F7'}}>⠀Ida⠀</th>
+                  <th style     = {{backgroundColor: '#E0F8F7'}}>Retorno</th>
+                  <th style     = {{backgroundColor: '#E0F8F7'}}>Percurso</th>
               </tr>
             </thead>
              <tbody>
@@ -153,11 +157,11 @@ export default class Horarios extends Component {
 
              <table class = "table table-bordered table-hover mt-5">
                     <thead>
-                      <tr><th colspan = "3">Rola moça</th></tr>
+                      <tr style     = {{textAlign: 'center', backgroundColor: '#4abdac'}}><th colspan = "3">Rola moça</th></tr>
                       <tr>
-                          <th>Ida</th>
-                          <th>Retorno</th>
-                          <th>Percurso</th>
+                          <th style     = {{backgroundColor: '#E0F8F7'}}>⠀Ida⠀</th>
+                          <th style     = {{backgroundColor: '#E0F8F7'}}>Retorno</th>
+                          <th style     = {{backgroundColor: '#E0F8F7'}}>Percurso</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -176,11 +180,11 @@ export default class Horarios extends Component {
 
                 <table class = "table table-bordered table-hover mt-5">
                     <thead>
-                      <tr><th colspan = "3">Alto da antena</th></tr>
+                      <tr style     = {{textAlign: 'center',backgroundColor: '#4abdac'}}><th colspan = "3">Alto da antena</th></tr>
                       <tr>
-                          <th>Ida</th>
-                          <th>Retorno</th>
-                          <th>Percurso</th>
+                          <th style     = {{backgroundColor: '#E0F8F7'}}>⠀Ida⠀</th>
+                          <th style     = {{backgroundColor: '#E0F8F7'}}>Retorno</th>
+                          <th style     = {{backgroundColor: '#E0F8F7'}}>Percurso</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -200,15 +204,15 @@ export default class Horarios extends Component {
              <div   className = "col-lg-12">
              <table className = "table table-bordered table-hover">
                     <thead>
-                      <tr>
-                          <th>Sábados, domingos e feriados</th></tr>
-                      <tr>
-                      <tr></tr>
+                      <tr style     = {{textAlign: 'center'}}>
+                          <th colspan = "6" style     = {{textAlign: 'center', backgroundColor: '#4abdac'}}>Sábados, domingos e feriados</th></tr>
+                      <tr style     = {{textAlign: 'center', backgroundColor: '#4abdac'}}>
+                     
                           <th colspan = "3">Posto Girasol</th></tr>
                       <tr>
-                          <th>Ida</th>
-                          <th>Retorno</th>
-                          <th>Percurso</th>
+                          <th style     = {{backgroundColor: '#E0F8F7'}}>⠀Ida⠀</th>
+                          <th style     = {{backgroundColor: '#E0F8F7'}}>Retorno</th>
+                          <th style     = {{backgroundColor: '#E0F8F7'}}>Percurso</th>
                       </tr>
                     </thead>
                     <tbody>

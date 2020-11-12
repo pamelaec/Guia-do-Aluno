@@ -84,18 +84,20 @@
   }
 
   table{
-	  width: 30%;
+	  width: 50%;
 	  margin: auto;
+	  
   }
 
   td, th{
 	  border: 2px solid gray;
 	  text-align: center;
-	  background-color: greenyellow;
+	  background-color: #66b9bf;
 	  padding: 10px;
 	  font-size: 20px;
   }
-  
+
+ 
   /* LARGE SCREENS */
   @media(min-width:700px){
 	.wrapper{

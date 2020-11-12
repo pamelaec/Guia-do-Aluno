@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+  }
+  
+body{
+	background:white;
+	color:black;
+	line-height:1.6;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding:1em;
+  }
+  
+  /* FORM STYLES */
+   form{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	grid-gap:20px;
+  }
+  
+  form label{
+	display:block;
+  }
+ form p{
+	margin:0;
+  }
+  
+  form .full{
+	grid-column: 1 / 3;
+  }
+  
+ form button,  form input{
+	width:100%;
+	padding:1em;
+	height: 2px;
+	border:1px solid black;
+  }
+
+  form textarea{
+	width:200%;
+	resize: vertical;
+	border: 2px solid #AAA;
+    border-radius: 4px;
+    padding: 2px 4px;
+    margin: 2px;
+    background: #DDD;
+    display: block;
+  }
+  
+form button{
+	background:#66b9bf;
+	border:0;
+	width:200%;
+	height: 2.6rem;
+	
+
+	
+  }
+  
+
+
+ 
+ .container{	
+	background: white;
+	justify-content: center;
+	align-items: center
+ }
+  
+ h3{
+	font-Family: garamond;
+	justify-content: center;
+	text-align: center;
+ }
+ input {
+    border: 2px solid #AAA;
+    border-radius: 4px;
+    padding: 2px 5px;
+    margin: 2px;
+    background: #DDD;
+    display: inline-block;
+}

@@ -1,18 +1,18 @@
 var config = {
-    apiKey: "AIzaSyBLeZ9xGi2s8_5aEb_wj53VWPzx2U96mt8",
-    authDomain: "contactmural-55022.firebaseapp.com",
-    databaseURL: "https://contactmural-55022.firebaseio.com",
-    projectId: "contactmural-55022",
-    storageBucket: "contactmural-55022.appspot.com",
-    messagingSenderId: "631676953682",
-    appId: "1:631676953682:web:dff830a2bb160c5bd26b8b"
+    apiKey: "AIzaSyAU7Et9_9HsYfWfCI1mK_jTUL-7rZxWDoI",
+    authDomain: "gda-mural.firebaseapp.com",
+    databaseURL: "https://gda-mural.firebaseio.com",
+    projectId: "gda-mural",
+    storageBucket: "gda-mural.appspot.com",
+    messagingSenderId: "1016074559329",
+    appId: "1:1016074559329:web:ac4c0977f378b58ed2af20"
   };
   // Inicializa o firebase
   firebase.initializeApp(config);
 
   //Reference message
   var messagesRef = firebase.database().ref('messages');
-  document.getElementById('contactMural').addEventListener('submit', submitForm);
+  document.getElementById('gda-mural').addEventListener('submit', submitForm);
 
 
 function submitForm(e){
