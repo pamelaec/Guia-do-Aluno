@@ -4,3 +4,5 @@
 
 3- O react-router precisa ser instalado na versão "3.2.6"
 
+4- Atualmente o projeto está desconectado do firebase, é necessário criar outro database para armazenamento dos dados.
+

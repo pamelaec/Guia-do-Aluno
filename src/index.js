@@ -25,7 +25,6 @@ ReactDOM.render(
             <Route path='/mural' component={Mural} />
             <Route path='/comercio' component={Comercio} />
         </Route>
-
     </Router>
     ,
     document.getElementById('root'));

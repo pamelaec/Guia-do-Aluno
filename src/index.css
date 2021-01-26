@@ -1,8 +1,8 @@
-
+html{overflow-x: hidden;}
 
 body {
  
-    position:relative;  /* reset do position, não relacionado ao demo, mas bom pra uso geral.  */
+  position:relative;  /* reset do position, não relacionado ao demo, mas bom pra uso geral.  */
   margin:0;           /* Zeramos as margens e o padding do UL para as células.encostarem     */
   padding:0;
   width:100%;         /* por default, os blocos são 100%, mas vamos garantir isso.           */

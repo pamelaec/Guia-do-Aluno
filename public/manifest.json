@@ -8,9 +8,6 @@
  
   "icons": [
     {
-      
-    },
-    {
       "src": "maskable_iconn.png",
       "type": "image/png",
       "sizes": "192x192",
@@ -24,8 +21,8 @@
     },
 
     {
-      "theme_color": "#4abdac"
-    
+      "theme_color": "#4abdac",
+      "background_color": "#4abdac"
     }
   ]
 }

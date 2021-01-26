@@ -5,7 +5,6 @@ export default class Home extends Component {
 
     homeCardVagas = {
         title: 'Vagas em república',
-        //text: 'Vagas',
         img: './img/4.png',
         alt: "Vagas",
         action: () => hashHistory.push('/vagas')

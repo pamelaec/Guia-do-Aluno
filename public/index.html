@@ -7,9 +7,28 @@
     <meta name="theme-color" content="#317EFB"/>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon192x192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script>   
+           
+      if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('serviceWorker.js')
+              .then(function(registration) {
+                  console.log('ServiceWorker registrado com sucesso!');
+              }).catch(function(err) {
+                  console.log('Erro no registro: ', err);
+          });
+      }
+      
+  </script>
     <title >GUIA DO ALUNO</title>
   </head>
   <body>
+    <noscript>
+      <div>
+          Desculpe, mas não é possível utilizar esta aplicação
+          com o recurso de scripts desabilitado.
+          Verifique como habilitá-lo e tente novamente.
+      </div>                
+  </noscript>
   
     <div id="root"></div>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
